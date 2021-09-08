@@ -1,6 +1,6 @@
 # Lightning App Crash Course
 
-This is an example media store powered by Lightning payments. The accompanying tutorial/guide can be found at [http://localhost:3000](http://localhost:3000)
+This is an example media store powered by Lightning payments. The accompanying tutorial/guide can be found on [Medium](https://medium.com/@rheedio/a-crash-course-in-lightning-app-development-part-deux-51a8e48a4540)
 
 ## Tools
 
@@ -8,7 +8,7 @@ This is an example media store powered by Lightning payments. The accompanying t
 
 ## Configuration
 
-Copy lnd's gRPC protocol from [here](wget https://raw.githubusercontent.com/lightningnetwork/lnd/master/lnrpc/lightning.proto) and place in the `backend` dir.
+Copy lnd's gRPC protocol from [here](https://raw.githubusercontent.com/lightningnetwork/lnd/master/lnrpc/lightning.proto) and place in the `backend` dir.
 
 References to the lnd `admin.macaroon`, `tls.cert`, and `host:port` need to be filled in before starting the backend server.
 
